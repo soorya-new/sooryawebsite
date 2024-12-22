@@ -1,0 +1,84 @@
+.subscribe{   
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding help to remove overflow of text from the borders */
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 1s;
+  vertical-align: top;
+  /* normally the browser align the elememnts in the text order and it can be replaced by using vertical align */
+}
+
+/* hover is used to make changes to the button when  move mouse over the button hover is a pseudo class */
+
+/* .subscribe:hover{
+  background-color: green;
+} */
+
+.subscribe:hover{
+   opacity: 0.8;    /*opacity is used to fade  */
+}
+
+/* active is used to make changes in the button when click */
+
+/* .subscribe:active{
+  background-color: black;
+
+} */
+
+ .subscribe:active{
+  opacity: 0.5;
+
+}
+
+.join{
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  color:  rgb(41, 118, 211);
+  height: 36px;
+  width: 62px;
+  cursor: pointer;
+  /* padding is used to make distance inside the maegin */
+  transition: opacity 0.15s,
+  color 1s    ;
+}
+
+.join:hover{
+background-color:rgb(41, 118, 211); 
+color: white;
+}
+
+.join:active{
+opacity: 0.7;
+}
+
+.tweet{
+background-color: rgb(30, 89, 225);
+border-radius: 18px;
+border-width: 1px;
+border-style: solid;
+border-color:  rgb(30, 89, 225);
+height: 36px;
+width: 70px;
+color: white;
+font-size: 15px;
+margin-left: 8px;
+font-weight: bold;
+cursor: pointer;
+transition:  box-shadow 1s;
+}
+
+.tweet:hover{
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+/* shadow is used to male shadow to the button and first value indicates the horizontal size and next vertical 
+and third one the opacity of color of shadow and last the colour */
+}
